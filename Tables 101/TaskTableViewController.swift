@@ -13,6 +13,9 @@ class TaskTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return taskModel.count()
     }
+    
+    
+    
     // This determines the amount of rows and what cell for what row
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let task = taskModel.getTask(at: indexPath.row)
@@ -52,8 +55,18 @@ class TaskTableViewController: UITableViewController {
             }
         }
         ))
+    
         inputAlert.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: nil))
         present(inputAlert, animated: true)
     }
+    // This removes an item from the list
+    override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+        if editingStyle == .delete {
+            self.taskModel.tasks.remove(at: indexPath.row)
+            tableView.deleteRows(at: [indexPath], with: .fade)
+        }
+    }
+    
+    
     
 }
