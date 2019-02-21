@@ -38,16 +38,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		79496830221C77B900DF66AA /* Homepwner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Homepwner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		79496830221C77B900DF66AA /* Tables 101.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tables 101.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		79496833221C77B900DF66AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		79496838221C77B900DF66AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7949683A221C77BD00DF66AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7949683D221C77BD00DF66AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7949683F221C77BD00DF66AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		79496844221C77BD00DF66AA /* HomepwnerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomepwnerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79496844221C77BD00DF66AA /* Tables 101Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tables 101Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		79496848221C77BD00DF66AA /* HomepwnerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomepwnerTests.swift; sourceTree = "<group>"; };
 		7949684A221C77BD00DF66AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7949684F221C77BD00DF66AA /* HomepwnerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomepwnerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7949684F221C77BD00DF66AA /* Tables 101UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tables 101UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		79496853221C77BD00DF66AA /* HomepwnerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomepwnerUITests.swift; sourceTree = "<group>"; };
 		79496855221C77BD00DF66AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		79496861221C79A100DF66AA /* TaskTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskTableViewController.swift; sourceTree = "<group>"; };
@@ -85,7 +85,7 @@
 		79496827221C77B900DF66AA = {
 			isa = PBXGroup;
 			children = (
-				79496832221C77B900DF66AA /* Homepwner */,
+				79496832221C77B900DF66AA /* Tables 101 */,
 				79496847221C77BD00DF66AA /* HomepwnerTests */,
 				79496852221C77BD00DF66AA /* HomepwnerUITests */,
 				79496831221C77B900DF66AA /* Products */,
@@ -95,14 +95,14 @@
 		79496831221C77B900DF66AA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				79496830221C77B900DF66AA /* Homepwner.app */,
-				79496844221C77BD00DF66AA /* HomepwnerTests.xctest */,
-				7949684F221C77BD00DF66AA /* HomepwnerUITests.xctest */,
+				79496830221C77B900DF66AA /* Tables 101.app */,
+				79496844221C77BD00DF66AA /* Tables 101Tests.xctest */,
+				7949684F221C77BD00DF66AA /* Tables 101UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		79496832221C77B900DF66AA /* Homepwner */ = {
+		79496832221C77B900DF66AA /* Tables 101 */ = {
 			isa = PBXGroup;
 			children = (
 				79496861221C79A100DF66AA /* TaskTableViewController.swift */,
@@ -116,7 +116,7 @@
 				7949683C221C77BD00DF66AA /* LaunchScreen.storyboard */,
 				7949683F221C77BD00DF66AA /* Info.plist */,
 			);
-			path = Homepwner;
+			path = "Tables 101";
 			sourceTree = "<group>";
 		};
 		79496847221C77BD00DF66AA /* HomepwnerTests */ = {
@@ -140,9 +140,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7949682F221C77B900DF66AA /* Homepwner */ = {
+		7949682F221C77B900DF66AA /* Tables 101 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 79496858221C77BD00DF66AA /* Build configuration list for PBXNativeTarget "Homepwner" */;
+			buildConfigurationList = 79496858221C77BD00DF66AA /* Build configuration list for PBXNativeTarget "Tables 101" */;
 			buildPhases = (
 				7949682C221C77B900DF66AA /* Sources */,
 				7949682D221C77B900DF66AA /* Frameworks */,
@@ -152,14 +152,14 @@
 			);
 			dependencies = (
 			);
-			name = Homepwner;
+			name = "Tables 101";
 			productName = Homepwner;
-			productReference = 79496830221C77B900DF66AA /* Homepwner.app */;
+			productReference = 79496830221C77B900DF66AA /* Tables 101.app */;
 			productType = "com.apple.product-type.application";
 		};
-		79496843221C77BD00DF66AA /* HomepwnerTests */ = {
+		79496843221C77BD00DF66AA /* Tables 101Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7949685B221C77BD00DF66AA /* Build configuration list for PBXNativeTarget "HomepwnerTests" */;
+			buildConfigurationList = 7949685B221C77BD00DF66AA /* Build configuration list for PBXNativeTarget "Tables 101Tests" */;
 			buildPhases = (
 				79496840221C77BD00DF66AA /* Sources */,
 				79496841221C77BD00DF66AA /* Frameworks */,
@@ -170,14 +170,14 @@
 			dependencies = (
 				79496846221C77BD00DF66AA /* PBXTargetDependency */,
 			);
-			name = HomepwnerTests;
+			name = "Tables 101Tests";
 			productName = HomepwnerTests;
-			productReference = 79496844221C77BD00DF66AA /* HomepwnerTests.xctest */;
+			productReference = 79496844221C77BD00DF66AA /* Tables 101Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		7949684E221C77BD00DF66AA /* HomepwnerUITests */ = {
+		7949684E221C77BD00DF66AA /* Tables 101UITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7949685E221C77BD00DF66AA /* Build configuration list for PBXNativeTarget "HomepwnerUITests" */;
+			buildConfigurationList = 7949685E221C77BD00DF66AA /* Build configuration list for PBXNativeTarget "Tables 101UITests" */;
 			buildPhases = (
 				7949684B221C77BD00DF66AA /* Sources */,
 				7949684C221C77BD00DF66AA /* Frameworks */,
@@ -188,9 +188,9 @@
 			dependencies = (
 				79496851221C77BD00DF66AA /* PBXTargetDependency */,
 			);
-			name = HomepwnerUITests;
+			name = "Tables 101UITests";
 			productName = HomepwnerUITests;
-			productReference = 7949684F221C77BD00DF66AA /* HomepwnerUITests.xctest */;
+			productReference = 7949684F221C77BD00DF66AA /* Tables 101UITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -216,7 +216,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7949682B221C77B900DF66AA /* Build configuration list for PBXProject "Homepwner" */;
+			buildConfigurationList = 7949682B221C77B900DF66AA /* Build configuration list for PBXProject "Tables 101" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -229,9 +229,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7949682F221C77B900DF66AA /* Homepwner */,
-				79496843221C77BD00DF66AA /* HomepwnerTests */,
-				7949684E221C77BD00DF66AA /* HomepwnerUITests */,
+				7949682F221C77B900DF66AA /* Tables 101 */,
+				79496843221C77BD00DF66AA /* Tables 101Tests */,
+				7949684E221C77BD00DF66AA /* Tables 101UITests */,
 			);
 		};
 /* End PBXProject section */
@@ -298,12 +298,12 @@
 /* Begin PBXTargetDependency section */
 		79496846221C77BD00DF66AA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7949682F221C77B900DF66AA /* Homepwner */;
+			target = 7949682F221C77B900DF66AA /* Tables 101 */;
 			targetProxy = 79496845221C77BD00DF66AA /* PBXContainerItemProxy */;
 		};
 		79496851221C77BD00DF66AA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7949682F221C77B900DF66AA /* Homepwner */;
+			target = 7949682F221C77B900DF66AA /* Tables 101 */;
 			targetProxy = 79496850221C77BD00DF66AA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -449,7 +449,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Homepwner/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Tables 101/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -466,7 +466,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Homepwner/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Tables 101/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -494,7 +494,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Homepwner.app/Homepwner";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tables 101.app/Tables 101";
 			};
 			name = Debug;
 		};
@@ -514,7 +514,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Homepwner.app/Homepwner";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tables 101.app/Tables 101";
 			};
 			name = Release;
 		};
@@ -559,7 +559,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7949682B221C77B900DF66AA /* Build configuration list for PBXProject "Homepwner" */ = {
+		7949682B221C77B900DF66AA /* Build configuration list for PBXProject "Tables 101" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				79496856221C77BD00DF66AA /* Debug */,
@@ -568,7 +568,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		79496858221C77BD00DF66AA /* Build configuration list for PBXNativeTarget "Homepwner" */ = {
+		79496858221C77BD00DF66AA /* Build configuration list for PBXNativeTarget "Tables 101" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				79496859221C77BD00DF66AA /* Debug */,
@@ -577,7 +577,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7949685B221C77BD00DF66AA /* Build configuration list for PBXNativeTarget "HomepwnerTests" */ = {
+		7949685B221C77BD00DF66AA /* Build configuration list for PBXNativeTarget "Tables 101Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7949685C221C77BD00DF66AA /* Debug */,
@@ -586,7 +586,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7949685E221C77BD00DF66AA /* Build configuration list for PBXNativeTarget "HomepwnerUITests" */ = {
+		7949685E221C77BD00DF66AA /* Build configuration list for PBXNativeTarget "Tables 101UITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7949685F221C77BD00DF66AA /* Debug */,
